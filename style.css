@@ -477,6 +477,10 @@ footer {
         display: none;
     }
 
+    footer {
+        width: 85%;
+    }
+
     .logo-img {
         width: 32px;
         height: 32px;
@@ -617,3 +621,4 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
