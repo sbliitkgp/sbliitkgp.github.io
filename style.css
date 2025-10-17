@@ -266,7 +266,7 @@ nav a.active::after {
 .team-member {
     text-align: center;
     min-width: 310px;
-    max-width: 400px;
+    max-width: 320px;
     padding: 1rem;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
@@ -663,4 +663,5 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
 
