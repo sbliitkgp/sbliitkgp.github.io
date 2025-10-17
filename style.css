@@ -55,7 +55,7 @@ header.scrolled {
     width: 87%;
     border-radius: 0 0 1rem 1rem;
     background: rgba(255, 255, 255, 0.95);
-    height: 3.5rem;
+    height: 3.8rem;
 }
 
 .logo-container {
@@ -663,3 +663,4 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
