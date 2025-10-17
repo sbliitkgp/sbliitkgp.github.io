@@ -34,7 +34,7 @@ header {
     top: 0.7rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
+    width: 87%;
     max-width: 1400px
     padding: 1.1rem 1.2rem;
     display: flex;
@@ -52,7 +52,7 @@ header {
 header.scrolled {
     top: 0;
     padding: 0.7rem 1.25rem;
-    width: 85%;
+    width: 87%;
     max-width: 1400px
     border-radius: 0 0 1rem 1rem;
     background: rgba(255, 255, 255, 0.95);
@@ -623,6 +623,7 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
 
 
 
