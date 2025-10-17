@@ -214,16 +214,42 @@ nav a.active::after {
     margin-top: 1rem;
 }
 
+.pi-grid {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 2fr;
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+
 .team-lead {
     height: auto;
     text-align: center;
-    padding: 2rem 0rem;
-    width: 100%
+    padding: 2rem;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
     backdrop-filter: blur(5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.team-lead img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* .team-lead {
+    height: auto;
+    text-align: center;
+    padding: 2rem 0rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+} */
 
 .team-lead img {
     border-radius: 15px;
@@ -534,6 +560,18 @@ footer {
         padding: 0.2rem;
     }
 
+    .pi-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-lead {
+        padding: 1rem;
+    }
+    
+    .team-lead img {
+        max-width: 300px;
+    }
+
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -625,4 +663,3 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
-
