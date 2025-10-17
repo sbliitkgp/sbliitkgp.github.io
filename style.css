@@ -87,7 +87,7 @@ header.scrolled {
     }
     
     .logo {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 }
 
@@ -461,30 +461,66 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
     header {
-        padding: 0.5rem 1rem;
+        width: 85%;
         height: 4rem;
+    }
+    
+    nav {
+        display: none;
     }
 
     .logo-img {
-        width: 28px;
-        height: 28px;
+        width: 32px;
+        height: 32px;
     }
-
-    nav {
-        gap: 1rem;
-    }
-
-    nav a {
+    
+    .logo {
         font-size: 1rem;
     }
 
+    .hamburger {
+        display: flex;
+    }
+
+    .dropdown {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        width: 100%;
+        background-color: var(--background-color);
+        box-shadow: 0 2px 7px rgba(79, 79, 79, 0.3);
+        z-index: 1000;
+        border-radius: 15px;
+        max-width: 180px;
+    }
+
+    .dropdown a {
+        padding: 0.6rem;
+        text-align: center;
+        border-bottom: 1px solid #eaeaea;
+        text-decoration: none;
+        font-size: 1.05rem;
+        position: relative;
+        color: var(--text-color);
+        
+    }
+
+    .dropdown a:hover {
+        background: #e5e5e5;
+        border-radius: 15px;
+        transition: height 0.2s ease;
+    }
+
+    .dropdown a:last-child {
+        border-bottom: none;
+    }
+
+}
+
+@media (max-width: 480px) {
     .hero h1 {
         font-size: 2rem;
     }
@@ -534,56 +570,8 @@ footer {
 
 .hamburger div {
     width: 25px;
-    height: 3px;
+    height: 2px;
     background-color: var(--text-color);
     margin: 4px 0;
     transition: 0.4s;
 }
-
-@media (max-width: 768px) {
-    nav {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .dropdown {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 5rem;
-        right: 0;
-        width: 100%;
-        background-color: var(--background-color);
-        box-shadow: 0 2px 7px rgba(79, 79, 79, 0.3);
-        z-index: 1000;
-        border-radius: 15px;
-        max-width: 180px;
-    }
-
-    .dropdown a {
-        padding: 0.6rem;
-        text-align: center;
-        border-bottom: 1px solid #eaeaea;
-        text-decoration: none;
-        font-size: 1.05rem;
-        position: relative;
-        color: var(--text-color);
-        
-    }
-
-    .dropdown a:hover {
-        background: #e5e5e5;
-        border-radius: 15px;
-        transition: height 0.2s ease;
-    }
-
-    .dropdown a:last-child {
-        border-bottom: none;
-    }
-
-}
-
-
