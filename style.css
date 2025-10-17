@@ -35,7 +35,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     width: 87%;
-    max-width: 1400px
+    max-width: 1400px;
     padding: 1.1rem 1.2rem;
     display: flex;
     justify-content: space-between;
@@ -623,6 +623,7 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
 
 
 
