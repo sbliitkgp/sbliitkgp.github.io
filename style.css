@@ -87,7 +87,7 @@ header.scrolled {
     }
     
     .logo {
-        font-size: 1.2rem;
+        font-size: 1.05rem;
     }
 }
 
@@ -222,7 +222,7 @@ nav a.active::after {
 
 .team-lead img {
     border-radius: 15px;
-    width: 350px;
+    max-width: 350px;
     max-height: 400px;
     object-fit: cover;
 }
@@ -585,4 +585,5 @@ footer {
     }
 
 }
+
 
