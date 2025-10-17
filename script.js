@@ -29,7 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (hamburger && dropdown) {
         hamburger.addEventListener('click', (e) => {
             e.stopPropagation();
-            dropdown.style.display = 'flex';
+            if (dropdown.style.display === 'flex') {
+                dropdown.style.display = 'none';
+            } else {
+                dropdown.style.display = 'flex';
+            }
         });
 
         document.addEventListener('click', (e) => {
@@ -42,4 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', toggleMenu);
     toggleMenu();
 });
+
 
