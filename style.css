@@ -525,6 +525,10 @@ footer {
         border-bottom: none;
     }
 
+    .content {
+        padding: 0.2rem;
+    }
+
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -616,3 +620,4 @@ footer {
     margin: 4px 0;
     transition: 0.4s;
 }
+
