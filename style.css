@@ -80,7 +80,7 @@ header.scrolled {
     border-radius: 7px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .logo-img {
         width: 32px;
         height: 32px;
@@ -89,7 +89,7 @@ header.scrolled {
     .logo {
         font-size: 1rem;
     }
-}
+} */
 
 nav {
     display: flex;
@@ -476,7 +476,7 @@ footer {
     }
     
     .logo {
-        font-size: 1rem;
+        font-size: flex;
     }
 
     .hamburger {
